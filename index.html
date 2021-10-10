@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
+    <script type="text/javascript" src="./script.js"></script> 
+    <title>termProject</title>
+    <nav class="navBar">
+        <div id="logo" onclick="goIndex()">LOGO</div>
+        <a id="intro" onclick="goIntro()">소개</a>
+        <a id="hospital" onclick="goHospital()">병원</a>
+        <a id="pharmacy" onclick="goPharmacy()">약국</a>
+        <a id="medicine" onclick="goMedicine()">약</a>
+        <a id="store" onclick="goStore()">스토어</a>
+    </nav>
+</head>
+<body>
+    <div class="introduce">
+        <div class="text">
+            <p style="font-size: 30px; font-weight: bold;">정확한 데이터로 증상별 약을 추천해드립니다.</p>
+            <p>국내 최초 데이터 기반 증상별 약 추천</p>
+        </div>
+        <div class="mediNum">
+            <p>수집된 약 개수</p>
+            <div>1500개</div>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+<script type="text/javascript"> 
+    function goIndex() { location.replace('index.html'); } 
+    function goIntro() { location.replace('intro.html'); } 
+    function goHospital() { location.replace('hospital.html'); } 
+    function goMedicine() { location.replace('medicine.html'); } 
+    function goPharmacy() { location.replace('pharmacy.html'); } 
+    function goStore() { location.replace('store.html'); } 
+</script>
